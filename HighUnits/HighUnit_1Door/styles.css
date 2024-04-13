@@ -45,9 +45,10 @@ header, footer {
 }
 
 .video-container video {
-  max-height: 110%;
-  border: none;
+  width: 90%;
+  max-width: max-content;
   border-radius: 10px;
+}
 }
 
 .controls {
