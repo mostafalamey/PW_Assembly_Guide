@@ -1,5 +1,8 @@
 // JavaScript to control the video player
 
+// Get the step title element
+const stepTitle = document.getElementById('step-title');
+
 // Get the video element
 const video = document.querySelector('#video');
 // Get the play/pause button
@@ -36,6 +39,7 @@ video.addEventListener('timeupdate', () => {
 backBtn.addEventListener('click', () => {
   if (currentBookmarkIndex > 0) {
     currentBookmarkIndex--;
+    stepTitle.textContent = 'Step ' + currentBookmarkIndex;
     video.currentTime = bookmarks[currentBookmarkIndex];
   }
 });
@@ -44,6 +48,7 @@ backBtn.addEventListener('click', () => {
 nextBtn.addEventListener('click', () => {
   if (currentBookmarkIndex < bookmarks.length - 1) {
     currentBookmarkIndex++;
+    stepTitle.textContent = 'Step ' + currentBookmarkIndex;
     video.currentTime = bookmarks[currentBookmarkIndex];
   }
 });
