@@ -45,7 +45,7 @@ header, footer {
 }
 
 .video-container video {
-  height: 540px;
+  height: min-content;
   border-radius: 10px;
 }
 
