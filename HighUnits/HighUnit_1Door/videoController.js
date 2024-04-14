@@ -1,7 +1,7 @@
 // JavaScript to control the video player
 
-// Get the step title element
-const stepTitle = document.getElementById('step-title');
+// Get the logo button
+const logoBtn = document.querySelector('#logo');
 
 // Get the video element
 const video = document.querySelector('#video');
@@ -15,6 +15,11 @@ const nextBtn = document.querySelector('#next');
 const bookmarks = [0, 21.75, 53.1, 86.1, 112.75, 139.8, 167.25, 190.7, 215];
 // Current bookmark index
 let currentBookmarkIndex = 0;
+
+// Logo button event listener
+logoBtn.addEventListener('click', () => {
+  window.location.href = '../highUnits.html';
+});
 
 // Play/Pause button event listener
 playPauseBtn.addEventListener('click', () => {
@@ -39,7 +44,6 @@ video.addEventListener('timeupdate', () => {
 backBtn.addEventListener('click', () => {
   if (currentBookmarkIndex > 0) {
     currentBookmarkIndex--;
-    stepTitle.textContent = 'Step ' + currentBookmarkIndex;
     video.currentTime = bookmarks[currentBookmarkIndex];
   }
 });
@@ -48,7 +52,6 @@ backBtn.addEventListener('click', () => {
 nextBtn.addEventListener('click', () => {
   if (currentBookmarkIndex < bookmarks.length - 2) {
     currentBookmarkIndex++;
-    stepTitle.textContent = 'Step ' + currentBookmarkIndex;
     video.currentTime = bookmarks[currentBookmarkIndex];
   }
 });
