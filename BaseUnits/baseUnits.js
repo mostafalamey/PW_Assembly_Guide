@@ -64,7 +64,7 @@ buov60Btn.addEventListener('click', () => {
 });
 
 busk60Btn.addEventListener('click', () => {
-    window.location.href = 'BaseUnit_Sink/baseUnit_sink.html';
+    window.location.href = 'BaseUnit_1Door_Sink/baseUnit_1door_sink.html';
 });
 
 busv60Btn.addEventListener('click', () => {
