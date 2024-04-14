@@ -1,13 +1,10 @@
 body {
   font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   margin: 0;
   padding: 0;
   height: 100vh;
   background-color: rgb(255, 255, 255);
-  gap: 8px;
 }
 
 header, .video-container, footer {
@@ -46,6 +43,7 @@ header > * {
 }
 
 .video-container {
+  margin: 1rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,11 +53,14 @@ header > * {
   width: 95%;
   max-width: max-content;
   border-radius: 10px;
+  box-shadow: 4px 4px 1rem rgba(0, 0, 0, 0.75);
 }
 
 .controls {
-  width: 90%;
+  margin: 1rem auto;
+  width: 90dvw;
   display: flex;
+  padding: 1rem;
   border: none;
   border-radius: 10px;
   background-color: grey;
@@ -80,6 +81,7 @@ button {
   margin: 8px;
   cursor: pointer;
   transition-duration: 250ms;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.75);
 }
 
 button:hover {

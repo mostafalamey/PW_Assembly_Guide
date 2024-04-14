@@ -1,4 +1,6 @@
 
+const logoBtn = document.querySelector('#logo');
+
 const bupl15Btn = document.querySelector('#bupl15');
 
 const bu1d30Btn = document.querySelector('#bu1d30');
@@ -21,6 +23,12 @@ const bu3d90Btn = document.querySelector('#bu3d90');
 const buov90Btn = document.querySelector('#buov90');
 const busk90Btn = document.querySelector('#busk90');
 const busv90Btn = document.querySelector('#busv90');
+
+
+
+logoBtn.addEventListener('click', () => {
+    window.location.href = '../index.html';
+});
 
 /*
 bupl15Btn.addEventListener('click', () => {
