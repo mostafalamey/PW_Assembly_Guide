@@ -1,0 +1,98 @@
+body {
+  font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  gap: 8px;
+}
+
+header, .video-container, footer {
+  width: 100%;
+}
+
+header {
+  position: -webkit-sticky; /* Fallback for Safari */
+  position: sticky;
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 1000; /* Ensure it stays on top of other elements */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(40, 40, 40);
+  color: whitesmoke;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
+
+header > * {
+  flex-shrink: 1;
+  flex-grow: 0;
+  text-align: center;
+  padding: 8px;
+}
+
+.title {
+  flex: 1;
+}
+
+.step {
+  display: none;
+}
+
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-container video {
+  width: 95%;
+  max-width: max-content;
+  border-radius: 10px;
+}
+
+.controls {
+  width: 90%;
+  display: flex;
+  border: none;
+  border-radius: 10px;
+  background-color: grey;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  flex: 1;
+  background-color: rgb(80, 80, 80);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 16px;
+  margin: 8px;
+  cursor: pointer;
+  transition-duration: 250ms;
+}
+
+button:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(40, 40, 40);
+  color: whitesmoke;
+  font-size: 12px;
+  font-weight: bold;
+}

@@ -12,7 +12,7 @@ const backBtn = document.querySelector('#back');
 const nextBtn = document.querySelector('#next');
 
 // Array of bookmarks
-const bookmarks = [0, 21.75, 53.1, 86.1, 112.75, 139.8, 167.25, 190.7];
+const bookmarks = [0, 21.75, 53.1, 86.1, 112.75, 139.8, 167.25, 190.7, 215];
 // Current bookmark index
 let currentBookmarkIndex = 0;
 
@@ -46,7 +46,7 @@ backBtn.addEventListener('click', () => {
 
 // Next button event listener
 nextBtn.addEventListener('click', () => {
-  if (currentBookmarkIndex < bookmarks.length - 1) {
+  if (currentBookmarkIndex < bookmarks.length - 2) {
     currentBookmarkIndex++;
     stepTitle.textContent = 'Step ' + currentBookmarkIndex;
     video.currentTime = bookmarks[currentBookmarkIndex];
