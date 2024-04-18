@@ -15,11 +15,11 @@ hu1d45Btn.addEventListener('click', () => {
     window.location.href = 'HighUnit_1Door/highUnit_1door.html';
 });
 
-/*
+
 hu1sd60Btn.addEventListener('click', () => {
-    window.location.href = 'BaseCornerUnits/baseCornerUnits.html';
+    window.location.href = 'HighUnit_1Drawer_Microwave_Oven/highUnit_1drawer_microwave_oven.html';
 });
-*/
+
 
 hu1d60Btn.addEventListener('click', () => {
     window.location.href = 'HighUnit_1Door/highUnit_1door.html';
@@ -29,8 +29,8 @@ hu1d1d60Btn.addEventListener('click', () => {
     window.location.href = 'HighUnit_1Door1Drawer_Microwave/highUnit_1door1drawer_microwave.html';
 });
 
-/*
+
 hu3d60Btn.addEventListener('click', () => {
-    window.location.href = 'HighUnits/highUnits.html';
+    window.location.href = 'HighUnit_3Drawers/highUnit_3drawers.html';
 });
-*/
+
