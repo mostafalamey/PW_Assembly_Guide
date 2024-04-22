@@ -15,6 +15,7 @@ baseUnitsBtn.addEventListener('click', () => {
 baseCornerUnitsBtn.addEventListener('click', () => {
     window.location.href = 'BaseCornerUnits/baseCornerUnits.html';
 });
+*/
 
 wallUnitsBtn.addEventListener('click', () => {
     window.location.href = 'WallUnits/wallUnits.html';
@@ -23,12 +24,11 @@ wallUnitsBtn.addEventListener('click', () => {
 wallCornerUnitsBtn.addEventListener('click', () => {
     window.location.href = 'WallCornerUnits/wallCornerUnits.html';
 });
-*/
-
+/*
 heighUnitsBtn.addEventListener('click', () => {
     window.location.href = 'HighUnits/highUnits.html';
 });
-
+/*
 /*
 tallUnitsBtn.addEventListener('click', () => {
     window.location.href = 'TallUnits/tallUnits.html';
