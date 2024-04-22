@@ -27,7 +27,6 @@ heighUnitsBtn.addEventListener('click', () => {
     window.location.href = 'HighUnits/highUnits.html';
 });
 
-/*
 tallUnitsBtn.addEventListener('click', () => {
     window.location.href = 'TallUnits/tallUnits.html';
 });
@@ -35,4 +34,3 @@ tallUnitsBtn.addEventListener('click', () => {
 fillerUnitsBtn.addEventListener('click', () => {
     window.location.href = 'FillerUnits/fillerUnits.html';
 });
-*/
