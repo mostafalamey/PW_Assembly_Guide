@@ -32,32 +32,32 @@ flbs12.addEventListener('click', () => {
 
 
 flwl398.addEventListener('click', () => {
-    window.location.href = 'Filler_Wall_39/fillerwall_39.html';
+    window.location.href = 'Filler_Wall_39/fillerWall_39.html';
 });
 flwl3912.addEventListener('click', () => {
-    window.location.href = 'Filler_Wall_39/fillerwall_39.html';
+    window.location.href = 'Filler_Wall_39/fillerWall_39.html';
 });
 
 
 flwl788.addEventListener('click', () => {
-    window.location.href = 'Filler_Wall_78/fillerwall_78.html';
+    window.location.href = 'Filler_Wall_78/fillerWall_78.html';
 });
 flwl7812.addEventListener('click', () => {
-    window.location.href = 'Filler_Wall_78/fillerwall_78.html';
+    window.location.href = 'Filler_Wall_78/fillerWall_78.html';
 });
 
 
 flhi8.addEventListener('click', () => {
-    window.location.href = 'Filler_Heigh/fillerheigh.html';
+    window.location.href = 'Filler_Heigh/fillerHeigh.html';
 });
 flhi12.addEventListener('click', () => {
-    window.location.href = 'Filler_Heigh/fillerheigh.html';
+    window.location.href = 'Filler_Heigh/fillerHeigh.html';
 });
 
 
 fltl8.addEventListener('click', () => {
-    window.location.href = 'Filler_Tall/fillertall.html';
+    window.location.href = 'Filler_Tall/fillerTall.html';
 });
 fltl12.addEventListener('click', () => {
-    window.location.href = 'Filler_Tall/fillertall.html';
+    window.location.href = 'Filler_Tall/fillerTall.html';
 });
