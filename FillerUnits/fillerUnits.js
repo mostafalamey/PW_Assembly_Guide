@@ -24,10 +24,10 @@ logoBtn.addEventListener('click', () => {
 
 
 flbs8.addEventListener('click', () => {
-    window.location.href = 'Filler_Base/fillerbase.html';
+    window.location.href = 'Filler_Base/fillerBase.html';
 });
 flbs12.addEventListener('click', () => {
-    window.location.href = 'Filler_Base/fillerbase.html';
+    window.location.href = 'Filler_Base/fillerBase.html';
 });
 
 
