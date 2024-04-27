@@ -30,19 +30,19 @@ logoBtn.addEventListener('click', () => {
     window.location.href = '../index.html';
 });
 
-/*
+
 bupl15Btn.addEventListener('click', () => {
-    window.location.href = 'BaseUnit_Pullout/baseUnit_Pullout.html';
+    window.location.href = 'BaseUnit_Pullout/baseUnit_pullout.html';
 });
-*/
+
 bu1d30Btn.addEventListener('click', () => {
     window.location.href = 'BaseUnit_1Door/baseUnit_1door.html';
 });
-/*
+
 bupl30Btn.addEventListener('click', () => {
-    window.location.href = 'HighUnit_1Door/highUnit_1door.html';
+    window.location.href = 'BaseUnit_Pullout/baseUnit_pullout.html';
 });
-*/
+
 bu1d45Btn.addEventListener('click', () => {
     window.location.href = 'BaseUnit_1Door/baseUnit_1door.html';
 });
