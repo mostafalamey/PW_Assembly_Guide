@@ -25,7 +25,7 @@ bbcul45fl12Btn.addEventListener('click', () => {
 });
 
 bbcul60fl8Btn.addEventListener('click', () => {
-    window.location.href = 'BaseBlindCornerUnit_L/baseBlindCornerUnit_L.html';
+    window.location.href = 'BaseBlindCornerUnit_L_60/baseBlindCornerUnit_L.html';
 });
 
 bbcul60fl12Btn.addEventListener('click', () => {
