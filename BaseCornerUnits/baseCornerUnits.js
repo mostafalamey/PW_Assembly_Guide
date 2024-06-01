@@ -29,7 +29,7 @@ bbcul60fl8Btn.addEventListener('click', () => {
 });
 
 bbcul60fl12Btn.addEventListener('click', () => {
-    window.location.href = 'BaseBlindCornerUnit_L/baseBlindCornerUnit_L.html';
+    window.location.href = 'BaseBlindCornerUnit_L_60/baseBlindCornerUnit_L.html';
 });
 
 bbcur45fl8Btn.addEventListener('click', () => {
@@ -41,11 +41,11 @@ bbcur45fl12Btn.addEventListener('click', () => {
 });
 
 bbcur60fl8Btn.addEventListener('click', () => {
-    window.location.href = 'BaseBlindCornerUnit_R/baseBlindCornerUnit_R.html';
+    window.location.href = 'BaseBlindCornerUnit_R_60/baseBlindCornerUnit_R.html';
 });
 
 bbcur60fl12Btn.addEventListener('click', () => {
-    window.location.href = 'BaseBlindCornerUnit_R/baseBlindCornerUnit_R.html';
+    window.location.href = 'BaseBlindCornerUnit_R_60/baseBlindCornerUnit_R.html';
 })
 
 bcur45Btn.addEventListener('click', () => {
