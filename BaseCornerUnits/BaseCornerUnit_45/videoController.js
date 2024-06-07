@@ -12,8 +12,7 @@ const backBtn = document.querySelector('#back');
 const nextBtn = document.querySelector('#next');
 
 // Array of bookmarks
-const bookmarks = [0, 21.75, 53.1, 89.2, 114.5, 136.2, 163.8, 193.9, 217.1, 241.8];
-// Current bookmark index
+const bookmarks = [0, 21.9, 52.6, 73.3, 91.6, 112, 130.3, 155.5, 186.2, 207, 227.2, 245.5, 255.7, 281.5, 300];// Time bookmark index
 let currentBookmarkIndex = 0;
 
 // Logo button event listener
