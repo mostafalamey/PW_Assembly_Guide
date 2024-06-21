@@ -12,7 +12,8 @@ const backBtn = document.querySelector('#back');
 const nextBtn = document.querySelector('#next');
 
 // Array of bookmarks
-const bookmarks = [0, 21.75, 53.1, 73.2, 99.8, 125.6, 137.4, 208.6, 246];
+//                 0   1       2     3     4     5      6      7     8      9      10     11     12     13     14   15    16     17
+const bookmarks = [0, 21.75, 53.1, 73.2, 99.8, 125.6, 137.4, 208.6, 239.2, 273.1, 309.2, 334.7, 356.3, 383.8, 414, 437.2, 455.5, 469.7, 486.6];
 // Current bookmark index
 let currentBookmarkIndex = 0;
 
